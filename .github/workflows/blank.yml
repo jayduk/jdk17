@@ -40,7 +40,7 @@ on:
 # 在调用方的工作流中（如 .github/workflows/main.yml）
 jobs:
   build-with-gcc12:
-    uses: jayduk/jdk/.github/workflows/build-cross-compile.yml@standard
+    uses: jayduk/jdk17/.github/workflows/build-cross-compile.yml@main
     with:
       gcc-major-version: "12" # 必须传递
       extra-conf-options: "--enable-cds"
