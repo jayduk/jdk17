@@ -45,4 +45,4 @@ jobs:
       gcc-major-version: "12" # 必须传递
       extra-conf-options: "--enable-cds"
       configure-arguments: "--prefix=/usr/local"
-      make-arguments: "-j4"
+      make-arguments: "JOBS=4"
